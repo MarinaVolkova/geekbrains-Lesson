@@ -18,7 +18,9 @@
         <li class="product-item">Associate the page with the payment system</li>
       </ul>
     </div>
-      <img src="http://placehold.it/472x217" alt="product" width="472" height="217" class="product-img">
+        <video src="media/product-video.mp4" autoplay loop width="472" height="217" class="product-video">
+          Элемент video не поддерживается вашим браузером.
+         </video>
     </section>
 
     <section class="about-product">
@@ -27,7 +29,9 @@
       <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis facilis fuga, illo at. Natus eos, eligendi illum rerum omnis porro ex, magni, explicabo veniam incidunt in quam sapiente ut ipsum.</p>
       <p class="about-text">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
     </div>
-      <img src="http://placehold.it/430x245" alt="about product" width="430" height="245" class="about-img">
+      <video src="media/about-product.mp4" controls autoplay loop width="430" height="245" class="about-video">
+        Элемент video не поддерживается вашим браузером.
+       </video>
     </section>
 
     <section class="dignity-product">
@@ -54,21 +58,21 @@
           </figcaption>
       </figure>
         <figure class="screenshot">
-          <img src="http://placehold.it/202x153" alt="screenshot product 2" width="202" height="153" class="screenshot-img">
+          <img src="http://placehold.it/202x153" alt="screenshot product 2" width="202" height="153" class="screenshot-img"> 
           <figcaption>
           <h3 class="screenshot-title">The description for the image</h3>
           <p class="screenshot-text">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
           </figcaption>
       </figure>
         <figure class="screenshot">
-          <img src="http://placehold.it/202x153" alt="screenshot product 3" width="202" height="153" class="screenshot-img">
+          <img src="http://placehold.it/202x153" alt="screenshot product 3" width="202" height="153" class="screenshot-img"> 
           <figcaption>
           <h3 class="screenshot-title">The description for the image</h3>
           <p class="screenshot-text">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
           </figcaption>
       </figure>
         <figure class="screenshot">
-          <img src="http://placehold.it/202x153" alt="screenshot product 4" width="202" height="153" class="screenshot-img">
+          <img src="http://placehold.it/202x153" alt="screenshot product 4" width="202" height="153" class="screenshot-img"> 
           <figcaption>
           <h3 class="screenshot-title">The description for the image</h3>
           <p class="screenshot-text">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
@@ -167,9 +171,9 @@
       <h2 class="contacts-title">Contacts</h2>
       <div class="contacts-wrapper">
           <form action="#" class="contacts-wrapper-form">
-            <input type="text" name = "firstname" placeholder = "Your name:" required><br>
-            <input type="email" name = "email" placeholder = "Your email:" required><br>
-            <textarea rows="10" cols="45" name="message" placeholder = "Your message:" required></textarea><br>
+            <input type="text" class="form-field" name = "firstname" pattern="^[a-zA-Z\s]+$" minlength="10" maxlength="40" placeholder = "Your name: Marina Volkova" required><br>
+            <input type="email" class="form-field" name = "email" minlength="5" maxlength="40" placeholder = "Your email: marin3volkkkkkk@yandex.ru" required><br>
+            <textarea class="form-field" rows="10" cols="45" name="message" placeholder = "Your message: " required></textarea><br>
             <input type="submit" value="Send" class="contacts-form-send">
           </form>
         <div class="contacts-info-wrapper">
