@@ -35,7 +35,10 @@ body{
  .product-item{
   padding-bottom:10px ;
  }
-
+.product-video{
+  object-fit: cover;
+  -o-object-fit:cover;
+}
  /* about-product */
  .about-product{
   padding-top: 45px;
@@ -136,7 +139,7 @@ body{
   align-items: flex-start;
   width: 48%;
 }
-.user-img{
+.user-img {
   border-radius:100%;
   margin: 5px 15px;
 }
@@ -259,10 +262,16 @@ body{
 }
 .contacts-wrapper-form >input,textarea{
   width: 503px;
-  border: none;
+  border:none;
   border-radius: 5px; 
   font-family: Arial;
   font-size: 16px;
+}
+.form-field:hover{
+  background-color: #dee9eb;
+}
+.form-field:focus{
+  background-color: #fbdfdf;
 }
 .contacts-wrapper-form >input[type="text"],input[type="email"]{
   height: 43px;
@@ -271,6 +280,7 @@ body{
 .contacts-wrapper-form>textarea{
   height: 173px;
   padding: 15px 20px;
+  resize: none;
 }
 .contacts-form-send{
   width: 143px !important;
@@ -279,6 +289,9 @@ body{
   color: #445162;
   font-weight: bold;
   text-transform: uppercase;
+}
+.contacts-form-send:hover{
+  background-color: #d7e3f1;
 }
 .contacts-info-item{
   list-style:none;
